@@ -1,0 +1,248 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+ }
+
+ body {
+   background-color: #302C42;
+ }
+
+
+ /*header navigation bar*/
+
+ .navigation-bars {
+   padding-top: 40px;
+ }
+
+ .navigation-bar > * {
+   vertical-align: middle;
+   text-decoration: none;
+   color: white;
+ }
+
+ .navigation-bar > a {
+   text-align: end;
+ }
+
+ .howto {
+   margin-right: 40px;
+ }
+
+ .navigation-bar > h1 {
+   margin-top: -10px;
+ }
+
+ .navigation-bar > button {
+   margin-top: -10px;
+   height: 50px;
+   width: 150px;
+   background-color: transparent;
+   margin-left: 50px;
+   border-radius: 30px;
+   border: 1px solid white;
+   text-transform: capitalize;
+ }
+
+ button:hover {
+   background-color: #46444e;
+ }
+
+ /*header main informations*/
+
+
+
+ .main-text {
+   margin-top: 100px;
+ }
+
+ .main-text > * {
+   margin-top: 20px;
+   gap: 10px;
+ }
+
+ .main-text > button {
+   height: 50px;
+   width: 200px;
+   background-color: transparent;
+   border-radius: 30px;
+   border: 1px solid white;
+   text-transform: capitalize; 
+   letter-spacing: 1px;
+ }
+
+ .main-text > button:hover {
+   background-color: #6c6b6e;
+   border: none;
+ }
+
+ .hero-image {
+   margin-top: 60px;
+   margin-left: 200px;
+   height: 400px;
+   width: 400px;
+   border-radius: 70px;
+   border-bottom-left-radius: 200px;
+   box-shadow: 20px -20px #a9a7ae;
+ }
+
+
+ /*header main links*/
+
+ .header-links {
+   margin-top: 70px;
+   background-color: #161325;
+   height: 100px;
+   border-radius: 50px;
+ }
+
+ .header-link > div {
+   display: flex;
+ }
+
+ .points > i {
+   margin-top: 30px;
+   margin-left: 35px;
+   font-size: 35px;
+ }
+ .points > p {
+   margin-top: 24px;
+   margin-left: 15px;
+   letter-spacing: 1px;
+ }
+
+ /*section introduction*/
+
+ .intro {
+   margin-top: 50px;
+   margin-bottom: 70px;
+ }
+
+ h3 {
+   font-size: 40px;
+   font-weight: 700;
+   letter-spacing: 2px;
+   gap: 10px;
+
+ }
+ .span3 {
+   font-size: 35px;
+   font-weight: 400;
+   color: #6c6b6e;
+   letter-spacing: 4px;
+ }
+
+ .intro-text {
+   margin-left: 50px;
+ }
+
+/*section about*/
+
+ .about-image {
+    width: 450px;
+    height: 450px;
+    border: 1px solid white;
+    border-radius: 100px;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    
+ }
+
+ .about-info {
+   margin-left: 150px;
+ }
+
+ .about-info > p {
+   margin-top: 20px;
+   gap: 10px;
+   line-height: 25px;
+ }
+
+ .about-info > button {
+   margin-top: 40px;
+   height: 50px;
+   width: 200px;
+   border-radius: 20px;
+   background-image: linear-gradient(to right, rgb(247, 21, 168), blue);
+   border: none;
+ }
+
+ .about-info > button:hover {
+   background-image: linear-gradient(to right, blue, rgb(247, 21, 168));
+ }
+
+ /*section built*/
+
+ .builts {
+   margin-top: 60px;
+ }
+ .built > p {
+   margin-left: 50px;
+   gap: 10px;
+   line-height: 25px;
+ }
+
+ /*section cards*/
+
+ .section-cards {
+   margin-top: 50px;
+ }
+
+ .card-img {
+   margin-left: 20px;
+   width: 300px;
+   height: 450px;
+   background-color: #161325;
+   text-align: center;
+   border-radius: 30px;
+ }
+
+ .card-img > img {
+   margin-top: 20px;
+   height: 150px;
+   width: 150px;
+   border-radius: 50%;
+   border: 10px solid rgb(94, 87, 87);
+ }
+
+ .card-img > h4 {
+   margin-top: 20px;
+   font-weight: 500;
+   letter-spacing: 2px;
+ }
+
+ hr {
+   margin-left: 40px;
+   width: 200px;
+   
+ }
+
+ .card-img > p {
+   margin-top: 20px;
+   gap: 10px;
+   line-height: 30px;
+ }
+
+ .card-img > button {
+   margin-top: 15px;
+   height: 50px;
+   width: 150px;
+   border: 1px solid white;
+   background-color: transparent;
+   border-radius: 20px;
+   text-transform: capitalize;
+   font-weight: 300;
+ }
+
+ .card-img > button:hover {
+   height: 52px;
+   width: 152px;
+   background-color: aqua;
+   color: black;
+   font-weight: 500;
+   border: none;
+ }
