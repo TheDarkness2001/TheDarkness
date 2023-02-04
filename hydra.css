@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-transform: capitalize;
     letter-spacing: 1px;
  }
@@ -166,9 +166,10 @@
    margin-top: 40px;
    height: 50px;
    width: 200px;
-   border-radius: 20px;
+   border-radius: 15px;
    background-image: linear-gradient(to right, rgb(247, 21, 168), blue);
    border: none;
+   text-transform: capitalize;
  }
 
  .about-info > button:hover {
@@ -201,12 +202,18 @@
    border-radius: 30px;
  }
 
+ .card-img:hover {
+  background-color: rgb(100, 98, 98);
+  transition: 2s;
+  border: 1px solid rgb(255, 255, 255);
+ }
+
  .card-img > img {
    margin-top: 20px;
    height: 150px;
    width: 150px;
    border-radius: 50%;
-   border: 10px solid rgb(94, 87, 87);
+   border: 10px solid rgb(85, 68, 68);
  }
 
  .card-img > h4 {
@@ -236,11 +243,10 @@
    border-radius: 20px;
    text-transform: capitalize;
    font-weight: 300;
+   transition: 1s;
  }
 
  .card-img > button:hover {
-   height: 52px;
-   width: 152px;
    background-color: aqua;
    color: black;
    font-weight: 500;
